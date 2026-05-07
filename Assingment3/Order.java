@@ -27,7 +27,7 @@ public class Order {
     }
     public void setUnitQuantity(int qty)throws Exception{
          if (qty<=0) {
-            throw new Exception("Unit price must be greater than zero.");
+            throw new Exception("Quantity must be greater than zero.");
         }
         this.quantity=qty; }
 
